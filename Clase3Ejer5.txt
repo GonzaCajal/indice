@@ -1,0 +1,23 @@
+package com.psr;
+
+
+public class prueba {
+    public static void main(String args[]) {
+    	
+    String cursos []={"Diseño", "Estadistica","Ingles"}; 
+    	
+    	
+   	 int practicas []={14,17,11};
+   	 
+   	 
+   	 	System.out.println("Promedio de Cursos");
+   	 	System.out.println("CURSO NOTA");
+   	 	System.out.println("------ ----- ");
+   	 	
+   	 	
+   	 int pp=(practicas[0]+practicas[1]+practicas[2])/3;
+   	 	for (int i=0;i<cursos.length;i++){
+   	 		System.out.println(cursos[i] + " "+practicas[i]);  } System.out.println("Su Promedio es : " +pp);
+   	  	}
+   	 }
+

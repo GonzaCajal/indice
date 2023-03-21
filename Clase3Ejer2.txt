@@ -1,0 +1,11 @@
+package com.psr;
+
+
+public class prueba {
+    public static void main(String args[]) {
+      int[] numeros = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}; //  creamos el array con valores
+        int i;
+        for(i=0; i<15; i++) {                                         //el contador empieza en 0 mientras seamenor al tamaño de nuestra lista le suma 1 y nos muestra lo que hay en esa ubicacion
+            System.out.println(numeros[i]+5);}				//nos muestra lo que esta en nuestro array pero sumando 5 
+          }
+      }

@@ -1,0 +1,17 @@
+package com.psr;
+
+
+public class prueba {
+    public static void main(String args[]) {
+    	
+    	String utiles []={"zapatillas", "remera argentina","mochila","pelota","gorra"};					//array con los tipos d eproductos
+    	
+		 double precios[]={25004.33,33250.15,12400.56,15000.70,10500.25};						//array con precios  con decimales
+		 
+		 	System.out.println("Lista de Productos y sus precios");										
+		 		for (int i=0;i<utiles.length;i++){								//si i es menor al largo del array de "utiles" suma 1						
+		 			
+		 			System.out.println("Articulo " + utiles[i]+ " Precio: $"+ precios[i]); 			//nos muestra el primer articulo del array utiles con el primero del array de precios
+		 		} 
+	 		}
+	 }

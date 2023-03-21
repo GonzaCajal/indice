@@ -1,0 +1,12 @@
+package com.psr;
+
+
+public class prueba {
+    public static void main(String args[]) {
+      int[] numeros = new int[]{10,155,32,14,106,348,706,1000,508,452}; //  creamos el array con valores
+                                                
+            System.out.println(numeros[6]/3);}							//nos muestra el valor de la posision 6 pero dividido por 3
+          }
+      
+
+      
